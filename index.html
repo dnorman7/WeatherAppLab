@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script defer src="./js/script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>AJAX Weather App</title>
 </head>
 <h1>AJAX Weather Lab</h1>
+
 <body>
     <form>
-        <input id = "search" type="text" placeholder="City Name"/>
-        <input type = "submit" value = "Get Weather Info"/>
+        <input id="search" type="text" placeholder="City Name" />
+        <input type="submit" value="Get Weather Info" />
     </form>
     <main>
         <h3>Weather For:</h3>
-        <p id="weatherFor"></p>
-        <p>Temperature:</p>
-        <p id="temperature"></p>
+        <p id="name"></p>
+        <p>Temperature: </p>
+        <p id="temp"></p>
         <p>Feels Like:</p>
-        <p id="feelsLike"></p>
+        <p id="feels"></p>
         <p>Weather:</p>
         <p id="weather"></p>
     </main>
 </body>
+
 </html>
